@@ -1,4 +1,77 @@
 <?php include "header.php" ?>
+<section class="NovidadesSection">
+  <main class="mainDestacados">
+    <h2>NOVIDADES</h2>
+    <section class="containerProdutos">
+      <div class="produto">
+          <img src="images/Novidades/Novidade1.jpg" alt="" class="produto__img">
+        <div class="productDescription">
+          <h3 class="produto__title">Novidade 1</h3>
+          <spam class="produto__price">$90.00</spam>
+        </div>
+        <a href=""><i class="produto__icon fas fa-cart-plus"></i></a>
+      </div>
+      <div class="produto">
+          <img src="images/Novidades/Novidade2.jpg" alt="" class="produto__img">
+        <div class="productDescription">
+          <h3 class="produto__title">Novidade 2</h3>
+          <spam class="produto__price">$90.00</spam>
+        </div>
+        <a href=""><i class="produto__icon fas fa-cart-plus"></i></a>
+      </div>
+      <div class="produto">
+          <img src="images/Novidades/Novidade3.jpg" alt="" class="produto__img">
+        <div class="productDescription">
+          <h3 class="produto__title">Novidade 3</h3>
+          <spam class="produto__price">$90.00</spam>
+        </div>
+        <a href=""><i class="produto__icon fas fa-cart-plus"></i></a>
+      </div>
+      <div class="produto">
+          <img src="images/Novidades/Novidade4.jpg" alt="" class="produto__img">
+       <div class="productDescription">
+        <h3 class="produto__title">Novidade 4</h3>
+        <spam class="produto__price">$90.00</spam>
+        </div>
+        <a href=""><i class="produto__icon fas fa-cart-plus"></i></a>
+      </div>
+      <div class="produto">
+        <img src="images/Novidades/Novidade5.jpg" alt="" class="produto__img">
+      <div class="productDescription">
+        <h3 class="produto__title">Novidade 5</h3>
+        <spam class="produto__price">$90.00</spam>
+      </div>
+      <a href=""><i class="produto__icon fas fa-cart-plus"></i></a>
+    </div>
+    <div class="produto">
+        <img src="images/Novidades/Novidade6.jpg" alt="" class="produto__img">
+      <div class="productDescription">
+        <h3 class="produto__title">Novidade 6</h3>
+        <spam class="produto__price">$90.00</spam>
+      </div>
+      <a href=""><i class="produto__icon fas fa-cart-plus"></i></a>
+    </div>
+    <div class="produto">
+        <img src="images/Novidades/Novidade7.jpg" alt="" class="produto__img">
+      <div class="productDescription">
+        <h3 class="produto__title">Novidade 7</h3>
+        <spam class="produto__price">$90.00</spam>
+      </div>
+      <a href=""><i class="produto__icon fas fa-cart-plus"></i></a>
+    </div>
+    <div class="produto">
+        <img src="images/Novidades/Novidade8.jpg" alt="" class="produto__img">
+     <div class="productDescription">
+        <h3 class="produto__title">Novidade 8</h3>
+        <spam class="produto__price">$90.00</spam>
+      </div>
+      <a href=""><i class="produto__icon fas fa-cart-plus"></i></a>
+    </div>
+    </section>
+  </main>
+</section>
+
+
 
 <section>
         <main role="main">

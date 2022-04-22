@@ -2,12 +2,12 @@
 <footer id="footer">
   <div class="bg-sec">
     <div class="container">
-      <h2>LOOKING FORWARD TO <strong>HEARING </strong>FROM YOU!</h2>
+      <h2>¡A LA ESPERA   <strong>DE SABER </strong>DE TI!</h2>
     </div>
   </div>
 </footer>
 <footer id="footer-down">
-  <h2>Follow Us On</h2>
+  <h2>Síguenos a travez de nuestras redes sociales</h2>
   <ul class="social-icon">
     <li class="facebook hvr-pulse"><a href="#"><i class="fa fa-facebook-f"></i></a></li>
     <li class="twitter hvr-pulse"><a href="#"><i class="fa fa-twitter"></i></a></li>

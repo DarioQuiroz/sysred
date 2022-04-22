@@ -503,8 +503,7 @@ Manejamos equipos de todas las marcas y modelos: computadoras de escritorio, lap
       <div class="heading">
         <h2>Nuestros Paquet<span>es</span></h2>
         <div class="line"></div>
-        <p><span><strong>L</strong></span>orem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut 
-          et dolore magna aliqua. Ut enim ad minim veniam</p>
+        <p><span><strong>N</strong></span>os ajustamos a la forma que tu quieras trabajar en conjunto con nosotros, sin embargo, a continuación mostramos algunas de las formas más comúnes que trabajamos</p>
       </div>
     </div>
     <div class="row">
@@ -513,10 +512,10 @@ Manejamos equipos de todas las marcas y modelos: computadoras de escritorio, lap
           <ul class="pricing">
             <li class="plan-header">
               <div class="price-duration">
-                <div class="price"> $39 </div>
-                <div class="duration"> per month </div>
+                <div class="price"> $$$ </div>
+                <div class="duration">  </div>
               </div>
-              <div class="plan-name"> Emprendedor </div>
+              <div class="plan-name"> Por evento </div>
             </li>
             <li><strong>1</strong> DOMAIN</li>
             <li><strong>100GB</strong> DISK SPACE</li>
@@ -533,10 +532,10 @@ Manejamos equipos de todas las marcas y modelos: computadoras de escritorio, lap
           <ul class="pricing">
             <li class="plan-header">
               <div class="price-duration">
-                <div class="price"> $69 </div>
-                <div class="duration"> per month </div>
+                <div class="price"> $750 </div>
+                <div class="duration"></div>
               </div>
-              <div class="plan-name"> Negocios </div>
+              <div class="plan-name">  Por hora  </div>
             </li>
             <li><strong>3</strong> DOMAIN</li>
             <li><strong>300GB</strong> DISK SPACE</li>
@@ -553,10 +552,10 @@ Manejamos equipos de todas las marcas y modelos: computadoras de escritorio, lap
           <ul class="pricing">
             <li class="plan-header">
               <div class="price-duration">
-                <div class="price"> $99 </div>
-                <div class="duration"> per month </div>
+                <div class="price"> $$$ </div>
+                <div class="duration">  </div>
               </div>
-              <div class="plan-name"> Pro </div>
+              <div class="plan-name"> Poliza de trabajo </div>
             </li>
             <li><strong>5</strong> DOMAIN</li>
             <li><strong>500GB</strong> DISK SPACE</li>
@@ -573,10 +572,10 @@ Manejamos equipos de todas las marcas y modelos: computadoras de escritorio, lap
           <ul class="pricing">
             <li class="plan-header">
               <div class="price-duration">
-                <div class="price"> $199 </div>
-                <div class="duration"> per month </div>
+                <div class="price"> $$$ </div>
+                <div class="duration">  </div>
               </div>
-              <div class="plan-name"> Ultimate </div>
+              <div class="plan-name"> Por proyectos </div>
             </li>
             <li><strong>10</strong> DOMAIN</li>
             <li><strong>1000GB</strong> DISK SPACE</li>
@@ -598,8 +597,8 @@ Manejamos equipos de todas las marcas y modelos: computadoras de escritorio, lap
       <div class="heading">
         <h2>Nuestro Equi<span>po</span></h2>
         <div class="line"></div>
-        <p><span><strong>L</strong></span>orem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut 
-          et dolore magna aliqua. Ut enim ad minim veniam</p>
+        <p><span><strong>A</strong></span>continuación presentamos los lideres de nuestra empresa, quienes son los responsables de verificar que todos nuestros trabajos cumplan con los requerimientos de nuestros clientes
+      </p>
       </div>
     </div>
     <div class="row">
@@ -838,8 +837,7 @@ Client-Section-Start-->
       <div class="heading">
         <h2 >CONTACTAN <span>OS</span></h2>
         <div class="line"></div>
-        <p><span><strong>L</strong></span>orem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut 
-          et dolore magna aliqua. Ut enim ad minim veniam</p>
+        <p><span><strong>L</strong></span></p>
           
       </div>
     </div>
@@ -862,7 +860,11 @@ Client-Section-Start-->
         </ul>
       </div>
       <div class="col-md-6 col-sm-6">
-        <form id="main-contact-form" name="contact-form" method="post" action="#">
+
+
+
+      
+        <form id="main-contact-form" name="contact-form" method="post" action="mensaje.php">
           <div class="row  wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="300ms">
             <div class="col-sm-6">
               <div class="form-group">
@@ -881,7 +883,8 @@ Client-Section-Start-->
           <div class="form-group">
             <textarea name="message" id="message" class="form-control" rows="4" placeholder="Enter your message" required="required"></textarea>
           </div>
-          <a class="btn-send col-md-12 col-sm-12 col-xs-12" href="#">Send Now</a>
+       
+          <input class="btn-send col-md-12 col-sm-12 col-xs-12" id="submit" type="submit" value="Enviar" name="enviar" required>
         </form>
       </div>
     </div>
