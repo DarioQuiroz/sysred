@@ -64,7 +64,6 @@
             <li><a class="scroll" href="#team">Equipo</a></li>
             <li><a class="scroll" href="#contact">Contactanos</a></li>
             <li><a class="scroll" href="Productos.php">Productos</a></li>
-            <li><a class="scroll" target="blank" href="https://mx.ingrammicro.com/Site/Search#keywords%3alenovo%7ecategory%3aComputadoras%7esubCategory%3aPort%u00e1tiles%20%2f%20Tablets%7evendorname%3aLenovo" >Productos2</a></li>
 
             
           </ul>

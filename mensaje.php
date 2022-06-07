@@ -6,6 +6,7 @@ echo "entra a mensaje";
 $mensaje= $_POST['message'];
 $correo= $_POST['email'];
 $name= $_POST['name'];
+<<<<<<< Updated upstream
 $empresa= $_POST['subject'];
 
 
@@ -27,6 +28,25 @@ $email_address))
 {
     $error .= "\n Error: Correo invalido";
 }
+=======
+$empresa=$_POST['empresa'];
+//$empresa= $_POST['subject'];
+
+
+$to = "dario.quiroz@sysred.com.mx, gil.q.c.dq@gmail.com, emilio.garcia@sysred.com.mx, nancy.torres@sysred.com.mx";
+	
+$subject = "Correo de la página de sysred " ;
+$headers = "correo:".$correo;
+$txt =  "Nombre: $name\n $mensaje\n Atentamente :$name de $empresa";
+
+
+
+$headers =  'MIME-Version: 1.0' . "\r\n"; 
+$headers .= "From: $name \n  $correo";
+$headers .= 'Content-Type: text/html; charset=utf-8' . "\r\n"; 
+
+mail($to, $subject, $txt, $headers);
+>>>>>>> Stashed changes
 
 if( empty($errors))
 {

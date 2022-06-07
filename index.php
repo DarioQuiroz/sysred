@@ -260,8 +260,9 @@
         <img src="images/Service/accesorios.jpg" alt="" style="max-width: 20%;" class="image-new">
       </div>
       <div class="-row-text">
-        <h2 id="redes"class="heading">Venta de equipo y accesorios de computo</h1>
-
+        
+        <a href="https://mx.ingrammicro.com/Site/Search#keywords%3alenovo%7ecategory%3aComputadoras%7esubCategory%3aPort%u00e1tiles%20%2f%20Tablets%7evendorname%3aLenovo"><h2 id="redes"class="heading">Venta de equipo y accesorios de computo</h1>
+</a>
         <p class="paragraph cc-gray">Somos distribuidores en venta de equipo de cómputo nuevo y accesorios.
 Manejamos equipos de todas las marcas y modelos: computadoras de escritorio, laptops, impresoras, multifuncionales, scanners, consumibles.</p>
        
@@ -837,7 +838,11 @@ Client-Section-Start-->
       <div class="heading">
         <h2 >CONTACTAN <span>OS</span></h2>
         <div class="line"></div>
+<<<<<<< Updated upstream
         <p><span><strong>L</strong></span></p>
+=======
+        <p><span><strong>Lol</strong></span></p>
+>>>>>>> Stashed changes
           
       </div>
     </div>
@@ -868,21 +873,27 @@ Client-Section-Start-->
           <div class="row  wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="300ms">
             <div class="col-sm-6">
               <div class="form-group">
-                <input type="text" name="name" class="form-control" placeholder="Name" required="required">
+                <input type="text" name="name" class="form-control" placeholder="Nombre" required="required">
               </div>
             </div>
             <div class="col-sm-6">
               <div class="form-group">
-                <input type="email" name="email" class="form-control" placeholder="Email Address" required="required">
+                <input type="email" name="email" class="form-control" placeholder="Email " required="required">
               </div>		
             </div>
           </div>
           <div class="form-group">
-            <input type="text" name="subject" class="form-control" placeholder="Subject" required="required">
+            <input type="text" name="subject" class="form-control" placeholder="Asunto" required="required">
           </div>
           <div class="form-group">
-            <textarea name="message" id="message" class="form-control" rows="4" placeholder="Enter your message" required="required"></textarea>
+            <input type="text" name="empresa" class="form-control" placeholder="Empresa" required="required">
           </div>
+<<<<<<< Updated upstream
+=======
+          <div class="form-group">
+            <textarea name="message" id="message" class="form-control" rows="4" placeholder="Escribe tu mensjae" required="required"></textarea>
+          </div>
+>>>>>>> Stashed changes
        
           <input class="btn-send col-md-12 col-sm-12 col-xs-12" id="submit" type="submit" value="Enviar" name="enviar" required>
         </form>
